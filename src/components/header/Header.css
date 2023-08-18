@@ -1,0 +1,54 @@
+@import '../../styles/colors.css';
+
+body{
+    font-family: var(--font-family);
+    margin: 0;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo h2{
+    font-weight: 400;
+}
+
+button{
+    
+}
+
+nav{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    
+}
+
+nav a{
+    border-bottom: 2px solid #ffffff00;
+}
+
+nav a:hover{
+    border-bottom: 2px solid var(--primary-color) ;
+}
